@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- navbar section  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+        </a>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catogory
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Primium Cars</a></li>
+                <li><a class="dropdown-item" href="#">Normal Cars</a></li>
+                <li><a class="dropdown-item" href="#">OFF Road cars</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="#">Settings</a>
+            </li>
+          </ul>
+
+          
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>  
+    <!-- canvas section -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul>
+                <li><a href="">Profile</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Change Password</a></li>
+                <li><a href="">Logout</a></li>
+              </ul>
+            </div>
+    </div>
+    <!-- canvas section end  -->
+    <!-- navbar section end -->
+
+    <!-- login section  -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form action="" method="post">
+            <input type="text" placeholder="username" name="username">
+            <input type="password" placeholder="password" name="pass1">
+            <input type="submit" value="Login"><br>
+            <label for="">If you have no account, please :</label><a href=""> SignUp</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- login section end -->
+
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
